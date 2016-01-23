@@ -57,7 +57,7 @@ $(document).ready(function() {
 		$('#room-list').empty();
 
 		for (var room in rooms) {
-			room = room.substring(1, room, length);
+			room = room.substring(1, room.length);
 			if (room != '') {
 				$('#room-list').append(divEscapedContentElement(room));
 			}
