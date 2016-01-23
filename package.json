@@ -2,13 +2,14 @@
   "name": "prototype",
   "version": "1.0.0",
   "description": "prototype",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
+    "socket.io": "~0.9.6",
+    "mime":"~1.2.7"
   }
 }
